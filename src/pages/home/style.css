@@ -47,12 +47,19 @@ section {
 .intro_sec .text,
 .intro_sec .h_bg-image {
     width: 50%;
+    position: relative;
 }
 
 @media (max-width:991.98px) {
     .intro_sec .text,
     .intro_sec .h_bg-image {
         width: 100%;
+    }
+    
+    .intro_sec .h_bg-image {
+        height: 500px;
+        min-height: 500px;
+        margin-bottom: 30px;
     }
 }
 
@@ -96,6 +103,7 @@ section {
     background-position: center;
     min-height: 700px;
     position: relative;
+    overflow: hidden;
 }
 
 .ac_btn {
